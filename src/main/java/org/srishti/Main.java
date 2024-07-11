@@ -5,7 +5,7 @@ import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
-import org.srishti.service.ChartService;
+import org.srishti.service.BarChartService;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -15,9 +15,9 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        ChartService chartService=new ChartService();
+        BarChartService barChartService =new BarChartService();
 
-        DefaultCategoryDataset dataset = chartService.getDataSet();
+        DefaultCategoryDataset dataset = barChartService.getDataSet();
 
 
         JFreeChart chart = ChartFactory.createBarChart(

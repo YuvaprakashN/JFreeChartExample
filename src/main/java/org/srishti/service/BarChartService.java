@@ -3,16 +3,13 @@ package org.srishti.service;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.jfree.data.category.DefaultCategoryDataset;
-import org.srishti.model.ChartData;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
 
-public class ChartService {
+public class BarChartService {
 
 
 
